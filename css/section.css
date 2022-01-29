@@ -1,0 +1,129 @@
+.row-info{
+    padding: 30px;
+}
+.row-info p{
+    padding-top: 4vh;
+    padding-bottom: 60px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.row-info h1{
+    font-size: 24px;
+}
+.row-info img{
+    width: 100%;
+}
+.text-wrap{
+   padding-top: 3vh;
+
+}
+.cell-large{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.cell-large h1{
+   font-size: 8vh !important;
+}
+@media screen and (min-width:900px) {
+    .row-info{
+
+       display: flex;
+       justify-content: space-around;
+       padding: 60px 0;
+        width: 80%;
+         margin: auto;
+    }
+    .cell-large h1{
+       width: 70%;
+       margin: auto;
+     }
+    .row-info article{
+        width: 50%;
+    }
+    .row-info .picture{
+        width: 50%;
+        display: flex;
+    }
+    .row-info img{
+        max-width: 560px;
+        width: 100%;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .row-info img:hover{
+        transform: scale(1.1);
+        
+    }
+    .row-info p{
+        
+       font-size: 18px;
+    }
+    .row-info .text-wrap{
+        width: 70%;
+        margin: auto;
+    }
+    .row-info h1{
+        font-size: 36px;
+     }
+}
+.dark-row{
+background: var(--green);
+padding: 50px;
+color: var(--main-white);
+}
+
+.dark-row p{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    line-height: 35px;
+    font-size: 18px;
+}
+.dark-row h1{
+  
+    font-size: 36px;
+}
+.dark-row img{
+  
+   width: 100%;
+}
+
+@media screen and (min-width:900px) {
+    .dark-row{
+
+       display: flex;
+       justify-content: space-around;
+       padding: 60px 0;
+        width: 100%;
+         margin: auto;
+         align-items: center;
+    }
+    .dark-row article{
+        width: 50%;
+    }
+    .dark-row .picture{
+        width: 50%;
+        display: flex;
+    }
+    .dark-row img{
+        max-width: 560px;
+        width: 100%;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .dark-row img:hover{
+        transform: scale(1.1);
+        
+    }
+    .dark-row p{
+        
+       font-size: 24px;
+    }
+    .dark-row .text-wrap{
+        width: 60%;
+        margin: auto;
+    }
+    .dark-row h1{
+        font-size: 45px;
+     }
+}

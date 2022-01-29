@@ -1,0 +1,25 @@
+
+.gallery{
+    width: 80%;
+    display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    grid-gap:20px;
+
+}
+.gallery img{
+    width: 100%;
+   transition: all ease 1s;
+}
+.gallery img:hover{
+    filter:contrast(120%);
+   transform: scale(1.1);
+   
+}
+@media screen and (min-width:900px) {
+    .gallery{
+       grid-template-columns: auto auto auto auto;
+       
+    }
+}

@@ -1,0 +1,38 @@
+footer{
+    margin-top: 2rem;
+    padding: 2rem;
+   
+    display: block;
+    background-color: var(--green);
+    color: var(--main-white);
+ 
+    
+}
+footer ul{
+   list-style: none;
+
+    
+}
+footer h3{
+    padding-bottom: 2rem;
+ 
+     
+ }
+
+footer svg{
+    color: var(--main-white); 
+ }
+ @media screen and (min-width:900px) {
+    footer{
+        padding: 2rem;
+       
+        display: flex;
+    
+        justify-content: center;
+       
+        
+    }
+    .info{
+        padding-right: 3rem;
+    }
+ }
